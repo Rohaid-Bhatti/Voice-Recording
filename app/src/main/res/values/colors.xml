@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="orange">#F45E11</color>
+    <color name="grey">#ECECEC</color>
+    <color name="greyDark">#656565</color>
+    <color name="greyDarkDisable">#8F8F8F</color>
+
+    <color name="colorText">#282828</color>
+
+    <color name="statusColor">#F1F1F1</color>
+    <color name="strokeColor">#1E88E5</color>
+    <color name="opaqueBF">#61000000</color>
+    <color name="playerColor">#FF4349</color>
+</resources>

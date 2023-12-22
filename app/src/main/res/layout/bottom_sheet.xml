@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:orientation="vertical"
+    android:background="@drawable/bg_round">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Record?"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextLayoutStyle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/filenameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="80dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Cancel"
+            android:backgroundTint="@color/grey"
+            android:textColor="@color/greyDark"
+            app:rippleColor="@color/greyDark"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOk"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="OK"
+            android:backgroundTint="@color/strokeColor"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            app:rippleColor="@color/greyDark"/>
+
+    </LinearLayout>
+</LinearLayout>
